@@ -1,0 +1,46 @@
+#contact-me-page{
+  height:100%;
+  overflow-y:auto;
+}
+
+.contact-img {
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  width: 60px;
+  display: block;
+}
+
+.phone {
+  background-image: url('../img/iphone.png');
+}
+
+.email {
+  background-image: url('../img/mail.png');
+}
+
+.linkedin {
+  background-image: url('../img/linkedin.png');
+}
+
+.github {
+  background-image: url('../img/GitHub-Mark-64px.png');
+}
+
+.no-hover{
+  pointer-events: none;
+}
+
+.c1,.c2,.c3,.c4,.c5{
+  margin:40px 0px;
+}
+
+.c11{
+  padding:100px;
+}
+
+.contactR{
+  width:100%;
+}

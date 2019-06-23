@@ -1,0 +1,59 @@
+.tech-icon{
+  width:15px;
+  height:15px;
+}
+#projects-page h2{
+  text-align:center;
+}
+#projects-page{
+  height:100%;
+}
+/* 
+#projects-page img.project-pic{
+  flex-basis:50%;
+} */
+
+.container1{
+  flex-basis:70%;
+}
+.container2{
+  flex-basis:30%;
+}
+
+.photo-carousel{
+  height:100%;
+  width:100%;
+  padding:0% 5%;
+}
+
+.chosen-photo{
+  flex: 0 0 66.6666666%;
+  background-image: url('../img/QuizApp.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:100%;
+}
+.smaller-photos{
+  margin-top:20px;
+  width:100%;
+  flex: 0 0 24.0%;
+}
+.small-a{
+  flex: 0 0 50%;
+  background-image: url('../img/sample.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.small-b{
+  flex: 0 0 50%;
+  background-image: url('../img/sample2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+

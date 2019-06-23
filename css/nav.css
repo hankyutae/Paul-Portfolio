@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+
+/*Start */
+
+ul{
+  margin-top:0px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+html, body {
+  background-color: #FDFFFC;
+  height:100%;
+}
+body{
+  display:flex;
+  flex-direction: column;
+}
+
+main{
+  background-color: #FDFFFC;
+  width:100%;
+  height:calc(100% - 60px);
+}
+
+body{
+  padding:15px;
+  background-color: #034f84;
+  line-height: 1.5;
+}
+
+footer{
+  background-color:#f7786b;
+  text-align: center;
+  height:30px;
+}
+/* Start */
+
+
+
+/* NAV *********************/
+.fixed-nav-links, li{
+  margin:0;
+  padding:0;
+} 
+
+nav {
+  position:sticky;
+  top:0px;
+  padding:0px;
+  height:30px;
+  display:flex;
+  flex-direction:row-reverse;
+  background-color:#f7786b;
+}
+
+/* NAV *********************/
+
+/* buttons ************/
+.dropdown-wrapper{
+  width:30px;
+  height:30px;
+  position:relative;
+}
+.nav-button{
+  background-color:#f7786b;
+  width:30px;
+  height:30px;
+  padding-top:3px;
+  z-index:20;
+}
+.nav-button:hover{
+  background-color: rgb(250,188,179) ;
+}
+
+.bar-for-nav-button{
+  margin-left:2px;
+  margin-right:2px;
+  width:26px;
+  height:5px;
+  background-color: #FDFFFC;
+  margin-bottom:3px;
+}
+/*buttons********************/
+
+/**NAV-links*****************/
+.fixed-nav-links{
+  list-style-type:none;
+  transition:max-height 1.5s ease-out;
+  position:absolute;
+  top:30px;
+  right:0px;
+  width:120px;
+  display:flex;
+  flex-direction:column;
+  list-style-type:none;
+  justify-content: space-around;
+  text-align:center;
+  border:1px solid gray;
+}
+
+.fixed-nav-links li{
+  background-color:#c3f698;
+  z-index:10;
+  font-size:22px;
+}
+
+.fixed-nav-links li a{
+  text-decoration: none;
+}
+
+.fixed-nav-links li:hover{
+  opacity: .5;
+}
+
+.fixed-nav-links li a:hover{
+}
+/**NAV-links*****************/
+
+
+/*Some universal stuff***********************/
+
+
+.color1{
+  background-color: #92a8d1;
+}
+
+.color2{
+  background-color:#034f84;
+}
+
+.color3{
+  background-color:#f7cac9;
+}
+
+.color4{
+  background-color:#f7786b;
+}
+.color5{
+  background-color:#39015a;
+  color:#f7cac9;
+}
+
+
+h2{
+  margin-top:0px;
+  padding-top:22.410px;
+}
+
+.flex-home{
+  display:flex;
+  flex-direction:column;
+}
+
+.flex-col{
+  display:flex;
+  flex-direction:column;
+}
+
+.flex-row{
+  display:flex;
+  flex-direction:row;
+}
+
+.center{
+  justify-content:center;
+}
+
+.aligncenter{
+  align-items:center;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.wrapper{
+  padding: 0 5%;
+}
+
+.grid{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.hidden{
+  display:none;
+}
+
+
+/*Some universal stuff***********************/

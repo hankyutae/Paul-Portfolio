@@ -1,0 +1,13 @@
+#about-me-page{
+  height:auto;
+}
+
+
+
+.desc{
+  flex:0 0 50%;
+}
+.resume{
+  padding:  100px 10%;
+  flex:0 0 50%;
+}

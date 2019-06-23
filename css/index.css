@@ -1,0 +1,44 @@
+/*BOXES***************************/
+.box{
+  height:266.66666px;
+  width:100%;
+}
+
+.b2,.b5,.b12{
+  cursor:pointer;
+}
+
+.b1,.b4,.b6,.b7,.b8,.b9,.b10,.b11{
+  display:none;
+}
+
+/*BOXES***************************/
+
+#home-page{
+  font-size: 28px;
+  height:100%;
+}
+
+
+
+
+img.profile-picture{
+  border-radius: 50%;
+}
+
+img.home-picture{
+  width:150px;
+}
+
+/******* Change image ***/
+
+
+
+
+
+
+
+
+
+
+

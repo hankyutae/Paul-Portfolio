@@ -1,0 +1,104 @@
+.b1,.b4,.b6,.b7,.b8,.b9,.b10,.b11{
+  display:none;
+}
+
+
+@media screen and (max-width: 640px){
+  html,body{
+    height:auto;
+  }
+}
+
+@media screen and (min-width: 640px){
+  html,body{
+    height:100%;
+  }
+  .flex-home{
+    flex-direction:row;
+  }
+  .b5{
+    background-color:#f7cac9;
+  }
+  .box{
+    width:50%;
+    height:calc(100% / 2);
+  }/* 
+  .contactL{
+    width:50%;
+  }
+  .contactR{
+    width:50%;
+  } */
+
+}
+
+@media screen and (max-height: 650px){
+  body,html{
+    height:auto;
+  }
+  .box{
+    height:280px;
+  }
+}
+
+@media screen and (min-width: 800px){
+ /*  #contact-me-page{
+    flex-direction:row;
+  }
+  #about-me-page{
+    flex-direction:row;
+  } */
+  html,body{
+    height:100%;
+  }
+  .flex-home{
+    flex-direction:row;
+  }
+  .b1,.b4,.b6,.b7,.b8,.b9,.b10,.b11{
+    display:block;
+  }
+
+  .b2{
+    background-color:#f7cac9;
+  }
+
+  .b3{
+    background-color:#92a8d1;
+    color:black;
+  }
+  .b4{
+    background-color:#39015a;
+    color:#f7cac9;
+  }
+
+  .b5{
+    background-color:#f7786b;
+  }
+
+  .b7{
+    background-color:#f7786b
+  }
+
+  .b10{
+    background-color:#39015a;
+  }
+   .b12{
+     background-color:#f7cac9;
+   }
+
+  .box{
+    width:25%;
+    height:calc(100% / 3);
+  }
+  
+
+}
+
+@media screen and (max-height: 770px) and (min-width: 800px){
+  body,html{
+    height:auto;
+  }
+  .box{
+    height:calc( 680px / 3);
+  }
+}
