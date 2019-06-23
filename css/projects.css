@@ -28,7 +28,7 @@
 
 .chosen-photo{
   flex: 0 0 66.6666666%;
-  background-image: url('../img/QuizApp.png');
+  background-image: url('../img/QuizApp.PNG');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
