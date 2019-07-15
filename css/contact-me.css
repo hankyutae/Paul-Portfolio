@@ -1,6 +1,11 @@
-#contact-me-page{
-  height:100%;
-  overflow-y:auto;
+html,body{
+  height:auto;
+  min-height:100vh !important;
+}
+
+main,#contact-me-page{
+  height:auto;
+  min-height:calc(100vh - 90px) !important;
 }
 
 .contact-img {

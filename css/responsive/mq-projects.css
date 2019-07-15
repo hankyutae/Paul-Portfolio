@@ -1,25 +1,8 @@
-@media screen and (max-width: 640px){
-  html,body{
-    height:100%;
-  }
-  .chosen-photo{
-    background-size:100% 100%;
-  }
-}
 
-@media screen and (max-width: 1120px){
-  .chosen-photo{
-    background-size:100% 100%;
-  }
-}
+
+
 @media screen and (min-width:800px){
   #projects-page{
     flex-direction: row;
   }
 }
-@media screen and (max-height:750px){
-  html,body{
-    height:750px;
-  }
-}
-

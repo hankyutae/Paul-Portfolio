@@ -1,0 +1,98 @@
+
+/*Some universal stuff***********************/* {
+  box-sizing: border-box;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+main{
+  background-color: #FDFFFC;
+}
+body{
+  display:flex;
+  flex-direction: column;
+  padding:15px;
+  background-color: #034f84;
+  line-height: 1.5;
+}
+footer{
+  background-color:#f7786b;
+  text-align: center;
+  height:30px;
+}
+ul{
+  margin-top:0px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+h2{
+  margin-top:0px;
+  padding-top:22.410px;
+}
+
+/*Some universal stuff***********************/
+
+
+/*Some useful classes***********************/
+.color1{
+  background-color: #92a8d1;
+}
+
+.color2{
+  background-color:#034f84;
+}
+
+.color3{
+  background-color:#f7cac9;
+}
+
+.color4{
+  background-color:#f7786b;
+}
+.color5{
+  background-color:#39015a;
+  color:#f7cac9;
+}
+
+
+.flex-home{
+  display:flex;
+  flex-direction:column;
+}
+
+.flex-col{
+  display:flex;
+  flex-direction:column;
+}
+
+.flex-row{
+  display:flex;
+  flex-direction:row;
+}
+
+.center{
+  justify-content:center;
+}
+
+.aligncenter{
+  align-items:center;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.wrapper{
+  padding: 0 5%;
+}
+
+.grid{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.hidden{
+  display:none;
+}
+/*Some useful classes***********************/

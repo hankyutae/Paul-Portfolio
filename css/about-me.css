@@ -1,13 +1,22 @@
-#about-me-page{
+
+
+html,body{
   height:auto;
+  min-height:100vh !important;
 }
+
+main,#about-me-page{
+  height:auto;
+  min-height:calc(100vh - 90px) !important;
+}
+
 
 
 
 .desc{
-  flex:0 0 50%;
+  flex:1 0 50%;
 }
 .resume{
   padding:  100px 10%;
-  flex:0 0 50%;
+  flex:1 0 50%;
 }

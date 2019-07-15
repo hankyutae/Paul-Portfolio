@@ -3,40 +3,9 @@
 }
 
 
-@media screen and (max-width: 820px){
-  html,body{
-    height:auto;
-  }
-  main{
-    height:auto;
-  }
-}
 
-@media screen and (max-width: 820px) and (min-height: 1500px ){
-  html,body{
-    height:auto;
-  }
-
-}
-
-@media screen and (min-width: 820px){
-  html,body{
-    height:100%;
-  }
-  main{
-    height:calc(100% - 60px);
-  }
+@media screen and (min-width: 1000px){
   #about-me-page{
     flex-direction:row;
-    height:100%;
-  }
-}
-
-@media screen and (min-width: 820px) and (max-height:880px){
-  html,body{
-    height:auto;
-  }
-  .desc,.resume{
-    height:790px;
   }
 }

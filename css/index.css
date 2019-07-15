@@ -33,7 +33,19 @@ img.home-picture{
 /******* Change image ***/
 
 
+html, body {
+  height:100%;
+}
+main{
+  width:100%;
+  height:calc(100% - 60px);
+}
 
+footer{
+  background-color:#f7786b;
+  text-align: center;
+  height:30px;
+}
 
 
 
