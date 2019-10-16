@@ -2,10 +2,21 @@
   overflow-y:auto;
 }
 
+@media screen and (min-width: 600px){
+  #about-me-page{
+    font-size:110%;
+  }
+}
 
 
 @media screen and (min-width: 1000px){
   #about-me-page{
     flex-direction:row;
+  }
+  .about-wrapper{
+    padding: 10px 10%;
+  }
+  .top-of-page{
+    padding-top:26px;
   }
 }

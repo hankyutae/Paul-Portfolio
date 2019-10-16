@@ -1,5 +1,5 @@
 /* global $*/
-const imgsrc=['img/imageedit_35_8033162653.jpg','img/15610685316106413.jpg'];
+const imgsrc=['img/imageedit_35_8033162653.jpg','img/15610685316106413.jpg', 'img/wedding.jpg'];
 
 
 const boxTranslator={
@@ -47,12 +47,12 @@ function handleClickBox(){
   $('.b3').click(e=>{
     e.preventDefault();
     window.location.href = './projects.html';
-    /* showTargetHideCurrent(boxTranslator['.b5']) */;
+    /* showTargetHideCurrent(boxTranslator['.b5']) */
   });
   $('.b12').click(e=>{
     e.preventDefault();
     window.location.href = './contact-me.html';
-    /* showTargetHideCurrent(boxTranslator['.b12']) */;
+    /* showTargetHideCurrent(boxTranslator['.b12']) */
   });
 }
 

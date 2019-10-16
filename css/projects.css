@@ -5,56 +5,93 @@
 #projects-page h2{
   text-align:center;
 }
+
+.project-card>div{
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.project-desc{
+  text-align:center;
+}
+.project-link{
+  text-align:center;
+}
+
+.medium{
+  font-weight:600;
+}
+
+h4{
+  margin-top:0px;
+  font-size:125%;
+}
 /* 
 #projects-page img.project-pic{
   flex-basis:50%;
 } */
 
-.container1{
-  flex-grow:2;
-  padding: 5% 10%;
+.project-div{
+  padding:30px 15px;
+  width:100%;
 }
-.container2{
-  flex-grow:1;
+.project-div:nth-child(even){
+  background-color:#f7cac9;
 }
-
+.project-div:nth-child(odd){
+  background-color:#92a8d1;
+}
 .photo-carousel{
   position:relative;
   width:100%;
-  padding-bottom:112.5%;
 }
-.chosen-photo{
-  position:absolute;
-  width:100%;
-  height:66.66%;
-  background-image: url('../img/QuizApp.jpg');
+.project-photo{
+  width:calc(100vw - 80px);
+  height:calc( 3/4 * calc(100vw - 80px));
+  margin-bottom:25px;
+}
+
+.project1-photo{
+  background-image: url('../img/tftBuilds43.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
-.smaller-photos{
-  position:absolute;
-  top:66%;
-  left:0;
-  width:100%;
-  height:33.33%;
-}
-.small-a{
-  border:1px solid black;
-  flex: 1 0 0;
-  background-image: url('../img/sample.jpg');
-  background-size: 100% 100%;;
+
+.project2-photo{
+  background-image: url('../img/symptomTracker43.png');
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.small-b{
-  border:1px solid black;
-  flex: 1 0 0;
-  background-image: url('../img/sample2.jpg');
-  background-size: 100% 100%;;
+.project3-photo{
+  background-image: url('../img/spacedRep43.png');
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.center-left{
+  position:absolute;
+  left:5px;
+  top:calc(50% - 90px);
+}
+.center-right{
+  position:absolute;
+  right:5px;
+  top:calc(50% - 90px);
+}
+
+
+.big-arrow{
+  font-size:125px;
+  display:none;
+  z-index:10;
+  cursor:pointer;
+}
+.big-arrow:hover{
+  color:rgb(0,0,0,0.5)
 }
 
 html,body{
@@ -62,7 +99,17 @@ html,body{
   min-height:100vh !important;
 }
 
+.outside-header{
+  display:none;
+}
+
+.container{
+  height:auto;
+  min-height:calc(100vh - 90px) !important;
+}
+
 main,#projects-page{
+  position:relative;
   height:auto;
   min-height:calc(100vh - 90px) !important;
 }

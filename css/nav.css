@@ -57,7 +57,9 @@ nav {
   list-style-type:none;
   justify-content: space-around;
   text-align:center;
-  border:1px solid gray;
+  /* border:1px solid gray; */
+  border-left:1px solid gray;
+  border-bottom:1px solid gray;
 }
 
 .fixed-nav-links li{
@@ -71,7 +73,7 @@ nav {
 }
 
 .fixed-nav-links li:hover{
-  opacity: .5;
+  opacity: .8;
 }
 
 .fixed-nav-links li a:hover{

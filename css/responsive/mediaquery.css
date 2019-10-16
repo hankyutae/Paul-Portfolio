@@ -86,11 +86,31 @@ main,#home-page{
   }
   .b4{
     background-color:#39015a;
+    background-color:#AF7CAE;
     color:#f7cac9;
+    /* background-image: url('../../img/wedding.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; */
   }
 
   .b5{
     background-color:#f7786b;
+  }
+
+  .b8{
+    background-image: url('../../img/wedding.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
   }
 
   .b7{
@@ -99,6 +119,7 @@ main,#home-page{
 
   .b10{
     background-color:#39015a;
+    background-color:#AF7CAE;
   }
    .b12{
      background-color:#f7cac9;

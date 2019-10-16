@@ -8,15 +8,79 @@ html,body{
 main,#about-me-page{
   height:auto;
   min-height:calc(100vh - 90px) !important;
+  font-weight:400;
+}
+
+p{
+  margin-bottom:0;
+}
+
+.about-wrapper{
+  padding: 10px 5%;
 }
 
 
 
+.about-me-header{
+  margin-bottom:0.5em;
+}
 
 .desc{
   flex:1 0 50%;
 }
 .resume{
-  padding:  100px 10%;
   flex:1 0 50%;
+}
+
+.ul-title {
+  width: 70%;
+  text-align: left;
+  display: inline-block;
+  margin-top:0px;
+  margin-bottom:2px;
+}
+.a-title{
+  color:black;
+  text-decoration:underline;
+}
+.a-title:hover{
+  color:rgb(0,0,0,0.5);
+}
+
+
+
+.edu-subdetail{
+  font-weight:500;
+  display: inline-block;
+}
+
+.github-link{
+  font-style:italic;
+  text-decoration:underline;
+  color:black;
+}
+
+.github-link:hover{
+  color:rgb(0,0,0,0.5);
+}
+
+.dates{
+  width: 30%;
+  text-align: right;
+  display: inline-block;
+  margin-top:0px;
+  margin-bottom:2px;
+  vertical-align:top;
+  font-weight:500;
+}
+.resume-content{
+
+}
+
+hr{
+  margin:0;
+  background-color:black;
+}
+h3{
+  margin:0.5em 0;
 }

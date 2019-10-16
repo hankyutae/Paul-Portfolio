@@ -17,6 +17,9 @@ footer{
   background-color:#f7786b;
   text-align: center;
   height:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 ul{
   margin-top:0px;
@@ -35,6 +38,9 @@ h2{
 
 
 /*Some useful classes***********************/
+.color0{
+  background-color:white;
+}
 .color1{
   background-color: #92a8d1;
 }
@@ -53,6 +59,21 @@ h2{
 .color5{
   background-color:#39015a;
   color:#f7cac9;
+}
+.color6{
+  background-color:#AF7CAE;
+}
+
+.color7{
+  background-color:#C3CFE5;
+}
+
+.color8{
+  background-color: #DBF5C7;
+}
+
+.color9{
+  background-color:#F4E8F2;
 }
 
 
@@ -79,12 +100,19 @@ h2{
   align-items:center;
 }
 
+.position-relative{
+  position:relative;
+}
+
 .text-center{
   text-align:center;
 }
 
 .wrapper{
   padding: 0 5%;
+}
+.wrapper2{
+  padding: 0 10%;
 }
 
 .grid{
@@ -95,4 +123,36 @@ h2{
 .hidden{
   display:none;
 }
+
+.no-text-dec{
+  text-decoration: none;
+}
+
+.a-title{
+  color:black;
+  text-decoration:underline;
+}
+.a-title:hover{
+  color:rgb(0,0,0,0.5);
+}
+
+.inline-block{
+  display:inline-block;
+}
+
+/* More text related classes */
+
+.bold{
+  font-weight:600;
+}
+
+.italic{
+  font-style:italic;
+}
+
+.underline{
+  text-decoration:underline;
+}
+
+
 /*Some useful classes***********************/

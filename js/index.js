@@ -38,11 +38,9 @@ function handleNavButtonClick(){
     const theNavLinks=$('.fixed-nav-links');
     if(theNavLinks.hasClass('hidden')){
       $('.fixed-nav-links').removeClass('hidden');
-      console.log('opening up');
     }
     else{
       $('.fixed-nav-links').addClass('hidden');
-      console.log('closing up');
     }
     handleClickAnywhereButLink();
   });
@@ -55,8 +53,6 @@ function handleClickAnywhereButLink(){
     e.preventDefault();
     const theNavLinks=$('.fixed-nav-links');
     if(!theNavLinks.hasClass('hidden')){
-      console.log('closing up by clicking somewhere else;');
-
       $('.fixed-nav-links').addClass('hidden');
     }
   });
