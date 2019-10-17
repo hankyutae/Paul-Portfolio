@@ -57,9 +57,21 @@ nav {
   list-style-type:none;
   justify-content: space-around;
   text-align:center;
-  /* border:1px solid gray; */
   border-left:1px solid gray;
   border-bottom:1px solid gray;
+  opacity:0;
+}
+.activated{
+  pointer-events: auto;
+  opacity: 1;/* 
+  transform: scale(1); */
+  transition: 1s;
+}
+.deactivated{
+  pointer-events: none;
+  opacity: 0;/* 
+  transform: scale(1); */
+  transition: 1s;
 }
 
 .fixed-nav-links li{

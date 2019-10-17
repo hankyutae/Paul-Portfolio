@@ -19,6 +19,31 @@
   height:100%;
 }
 
+.uke-pic{
+  background-image: url('../../img/cleanupright.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;/* 
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; */
+  background-size: contain;
+}
+
+.uke-pic:hover{
+  background-image: url('../../img/pixelArt2LoopSquare.gif');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;/* 
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; */
+  background-size: contain;
+
+}
+
 
 
 

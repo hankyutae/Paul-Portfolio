@@ -13,8 +13,6 @@ let carousel = (function(){
   let items = box.querySelectorAll('.project-div');
   let amount = items.length;
   let current = items[0];
-  // hide all elements and apply the carousel styling
-  box.classList.add('active');
   // navigate through the carousel
   function navigate(direction) {
     // hide the old current list item 
