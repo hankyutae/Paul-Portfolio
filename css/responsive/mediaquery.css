@@ -1,4 +1,4 @@
-.b1,.b4,.b6,.b7,.b8,.b9,.b10,.b11{
+.b1,.b4,.b6,/* .b7, */.b8,.b9,/* .b10, */.b11{
   display:none;
 }
 
@@ -20,16 +20,16 @@ main,#home-page{
   
   main,#home-page{
     height:auto;
-    min-height:calc(100vh - 90px);
   }
-  .b2,.b3,.b5,.b12{
+  .b2,.b3,.b5, .b7, .b10,.b12{
     flex-grow:1;
   }
 }
 
 @media screen and (min-width: 640px){
   html,body{
-    height:100%;
+    height:auto;
+    min-height:100vh !important;
   }
   .flex-home{
     flex-direction:row;
@@ -37,9 +37,13 @@ main,#home-page{
   .b5{
     background-color:#f7cac9;
   }
+  .b7{
+    background-color:#f7786b;
+  }
   .box{
     width:50%;
-    height:calc(100% / 2);
+    height:calc( calc(100vh - 90px ) / 3);
+    min-height:280px;
   }/* 
   .contactL{
     width:50%;
@@ -51,11 +55,8 @@ main,#home-page{
 }
 
 @media screen and (max-height: 650px){
-  body,html{
+  body,html,main,#home-page{
     height:auto;
-  }
-  .box{
-    height:280px;
   }
 }
 
@@ -73,7 +74,7 @@ main,#home-page{
     flex-direction:row;
   }
   .b1,.b4,.b6,.b7,.b8,.b9,.b10,.b11{
-    display:block;
+    display:flex;
   }
 
   .b2{
@@ -103,14 +104,14 @@ main,#home-page{
   }
 
   .b8{
-    background-image: url('../../img/wedding.jpg');
+    background-image: url('../../img/polaroidsquare.png');
     background-repeat: no-repeat;
-    background-position: 50% 0;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
+    background-position: 50% 50%;
+    -ms-background-size: contain;
+    -o-background-size:contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
   }
 
   .b7{
@@ -128,16 +129,14 @@ main,#home-page{
   .box{
     width:25%;
     height:calc(100% / 3);
+    min-height:240px;
   }
   
 
 }
 
-@media screen and (max-height: 770px) and (min-width: 800px){
-  body,html{
+@media screen and (max-height: 810px) and (min-width: 800px){
+  body,html,main,#home-page{
     height:auto;
-  }
-  .box{
-    height:calc( 680px / 3);
   }
 }

@@ -128,6 +128,10 @@ h2{
   text-decoration: none;
 }
 
+.color-black{
+  color:black;
+}
+
 .a-title{
   color:black;
   text-decoration:underline;
@@ -135,6 +139,7 @@ h2{
 .a-title:hover{
   color:rgb(0,0,0,0.5);
 }
+
 
 .inline-block{
   display:inline-block;

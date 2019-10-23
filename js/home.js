@@ -44,11 +44,10 @@ function handleClickBox(){
     window.location.href = './about-me.html';
     /* showTargetHideCurrent(boxTranslator['.b2']); */
   });
-  $('.b3').click(e=>{
+  /* $('.b3').click(e=>{
     e.preventDefault();
     window.location.href = './projects.html';
-    /* showTargetHideCurrent(boxTranslator['.b5']) */
-  });
+  }); */
   $('.b12').click(e=>{
     e.preventDefault();
     window.location.href = './contact-me.html';
