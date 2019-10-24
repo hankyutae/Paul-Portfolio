@@ -48,6 +48,31 @@
 
 }
 
+.resume-bear{
+  background-image: url('../img/pauweebear-resume.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;/* 
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; */
+  background-size: 156px 200px;
+}
+
+.resume-bear:hover{
+  background-image: url('../img/pauweebear-resume.gif');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;/* 
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; */
+  background-size: 156px 200px;
+
+}
+
 .bear-gif{
   background-image: url('../img/chaneweebearlite4.gif');
   background-repeat: no-repeat;
