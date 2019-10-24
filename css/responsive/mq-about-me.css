@@ -9,56 +9,55 @@
 
 @media screen and (min-width: 800px){
   #about-me-page{
-    font-size:110%;
+    font-weight:500;
   }
   .profile-picture{
-    position:absolute;
-    top:78px;
-    right:0;
-    z-index:1;
-    padding:0;
     height:420px;
     width:auto;
     /* width:40%;
     padding:16.4%; */
     background-size:contain;
+    flex-grow:0;
+    display:none;
+  }
+  .row-profile-wrapper{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .bear-and-bullets{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .row-profile-picture{
+    height:380px;
+    width:auto;
+    /* width:40%;
+    padding:16.4%; */
+    background-size:contain;
+    flex-grow:0;
+    display:block;
+  }
+  .row-profile-desc{
+    margin-right:20px;
   }
   .bear-pic{
-    position:absolute;
-    bottom:0px;
-    right:0px;
-    z-index:1;
-  }
-  span{
-    position:relative;
-    display:inline-block;
-    z-index:10;
-    background-color:rgba(255,255,255,0.9);
-    padding:5px 10px;
-    margin-bottom:5px;
-  }
-}
-
-@media screen and (min-width: 900px){
-  .profile-picture{
-    top:70px;
-    height:500px;
-    width:auto;
+    margin:0;
+    margin-right:20px;
   }
 }
 
 @media screen and (min-width: 1000px){
   .about-wrapper{
-    padding: 10px 10%;
+    padding: 0px 10%;
   }
 }
 
 
-@media screen and (min-width: 1125px){
-  .profile-picture{
-    height:500px;
-    width:auto;
-  }
+@media screen and (min-width: 1070px){
   .about-wrapper{
     margin:auto;
     width:800px;
@@ -67,11 +66,4 @@
 }
 
 
-
-
-/* @media screen and (min-width: 1200px){
-  .profile-picture{
-    background-size:836px 704.5px;
-  }
-} */
 
