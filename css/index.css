@@ -8,8 +8,12 @@
 .b2,.b5, .b7, .b12{
   cursor:pointer;
 }
+.b3{
+  padding:5px;
+  text-align:center;
+}
 .b2:hover,.b5:hover, .b7:hover, .b12:hover{
-  opacity:0.6;
+  opacity:0.8;
 }
 
 .b1,.b4,.b6,/*.b7, */.b8,.b9,/* .b10, */.b11{
@@ -35,7 +39,7 @@
   background-size: contain;
 }
 
-.uke-pic:hover{
+.uke-pic:hover,.uke-pic:focus{
   background-image: url('../img/PixelArt2LoopSquare.gif');
   background-repeat: no-repeat;
   background-position: 50% 50%;/* 
@@ -49,32 +53,10 @@
 }
 
 .resume-bear{
-  background-image: url('../img/pauweebear-resume.png');
-  background-repeat: no-repeat;
-  background-position: 50% 50%;/* 
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover; */
-  background-size: 156px 200px;
-}
-
-.resume-bear:hover{
-  background-image: url('../img/pauweebear-resume.gif');
-  background-repeat: no-repeat;
-  background-position: 50% 50%;/* 
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover; */
-  background-size: 156px 200px;
-
 }
 
 .bear-gif{
-  background-image: url('../img/chaneweebearlite4.gif');
+  background-image: url('../img/chaneweebearlite.png');
   background-repeat: no-repeat;
   background-position: 50% 50%;/* 
   -ms-background-size: cover;
@@ -83,6 +65,10 @@
   -webkit-background-size: cover;
   background-size: cover; */
   background-size: contain;
+}
+
+.bear-gif:hover,.bear-gif:focus{
+  background-image: url('../img/chaneweebearlite4.gif');
 }
 
 

@@ -11,21 +11,50 @@ main,#about-me-page{
   font-weight:400;
 }
 
+.desc{
+  flex-grow:1;
+}
+
 p{
   margin-bottom:0;
 }
 
+ul{
+  margin-bottom:0px;
+}
+
+
 .about-wrapper{
+  position:relative;
   padding: 10px 5%;
+  flex-grow:1;
+}
+
+.profile-picture{
+  display:block;
+  width:250px;
+  height:auto;
+  margin:auto;
+  margin-bottom:20px;
+  border-radius:5%;
+}
+
+.bear-pic{
+  display:block;
+  margin:auto;
+  width:150px;
+  margin-bottom:20px;
+  border-radius:10%;
 }
 
 
 
 .about-me-header{
   margin-bottom:0.5em;
+  text-align:center;
 }
 
-.desc{
+/* .desc{
   flex:1 0 50%;
 }
 .resume{
@@ -83,4 +112,4 @@ hr{
 }
 h3{
   margin:0.5em 0;
-}
+} */

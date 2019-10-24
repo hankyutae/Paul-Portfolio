@@ -1,5 +1,5 @@
 /* global $*/
-const imgsrc=['img/imageedit_35_8033162653.jpg','img/15610685316106413.jpg', 'img/wedding.jpg'];
+const imgsrc=['img/imageedit_35_8033162653.jpg','img/15610685316106413.jpg','img/chaneweebearlite4.gif','img/PixelArt2LoopSquare.gif','img/polaroidsquare.png'];
 
 
 const boxTranslator={

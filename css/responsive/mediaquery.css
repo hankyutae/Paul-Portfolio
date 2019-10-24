@@ -25,6 +25,8 @@ main,#home-page{
     flex-grow:1;
   }
 }
+@media screen and (max-width: 800px){
+}
 
 @media screen and (min-width: 640px){
   html,body{

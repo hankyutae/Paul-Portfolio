@@ -1,22 +1,77 @@
 #about-me-page{
   overflow-y:auto;
 }
-
 @media screen and (min-width: 600px){
   #about-me-page{
     font-size:110%;
   }
 }
 
+@media screen and (min-width: 800px){
+  #about-me-page{
+    font-size:110%;
+  }
+  .profile-picture{
+    position:absolute;
+    top:78px;
+    right:0;
+    z-index:1;
+    padding:0;
+    height:420px;
+    width:auto;
+    /* width:40%;
+    padding:16.4%; */
+    background-size:contain;
+  }
+  .bear-pic{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    z-index:1;
+  }
+  span{
+    position:relative;
+    display:inline-block;
+    z-index:10;
+    background-color:rgba(255,255,255,0.9);
+    padding:5px 10px;
+    margin-bottom:5px;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .profile-picture{
+    top:70px;
+    height:500px;
+    width:auto;
+  }
+}
 
 @media screen and (min-width: 1000px){
-  #about-me-page{
-    flex-direction:row;
-  }
   .about-wrapper{
     padding: 10px 10%;
   }
-  .top-of-page{
-    padding-top:26px;
+}
+
+
+@media screen and (min-width: 1125px){
+  .profile-picture{
+    height:500px;
+    width:auto;
+  }
+  .about-wrapper{
+    margin:auto;
+    width:800px;
+    padding:0;
   }
 }
+
+
+
+
+/* @media screen and (min-width: 1200px){
+  .profile-picture{
+    background-size:836px 704.5px;
+  }
+} */
+
