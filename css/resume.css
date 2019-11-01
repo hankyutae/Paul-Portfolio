@@ -16,19 +16,21 @@ header{
   color:white;
   padding:30px 0px;
   text-align:center;
+  display:flex;
+  flex-direction:column;
 }
 h1{
   margin:0;
-  font-size:300%;
+  font-size:280%;
 }
 
-.contact-box{
+.contact-box{/* 
   border:1px white solid;
-  border-radius:10px;
+  border-radius:10px; */
   display:inline-flex;
   align-items:center;
   margin:auto;
-  padding:5px 15px;
+  padding:5px 10px;
 }
 
 .contact-icon-a{
@@ -36,9 +38,32 @@ h1{
   align-items:center;
   margin:0 5px;
 }
+.contact-icon-div{
+  display:inline-flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  margin:0 5px;
+}
+.contact-text-height{
+  height:15px;
+}
+.font-small{
+  font-size:11px;
+}
+.font-size-0{
+  font-size:0px;
+}
+.git-linked-div{
+  display:flex;
+  flex-direction:column;
+}
+.fix-margins-for-phone{
+  margin:0 0;
+}
 
 .contact-icon-img{
-  height:40px;
+  height:50px;
 }
 
 footer{
@@ -107,4 +132,26 @@ h3{
   margin:0;
   color:#219091;
   font-size:140%;
+}
+.name-and-icons{
+  margin-bottom:15px;
+}
+@media screen and (min-width:750px){
+  header{
+    flex-direction:row;
+    align-items:top;
+    justify-content:space-between;
+  }
+  .name-and-icons{
+    margin-left:5%;
+    margin-bottom:0px;
+  }
+  .contact-info-text{
+    margin-right:5%;
+    text-align:right;
+    margin-top:20px;
+  }
+  .contact-box{
+    padding-left:0;
+  }
 }
