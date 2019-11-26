@@ -50,6 +50,12 @@ ul{
   border-radius:10%;
 }
 
+.math-trick-div{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
 span{
   position:relative;
   display:inline-block;
