@@ -107,6 +107,10 @@ ul{
   display: inline-block;
 }
 
+.utilized{
+  font-weight:500;
+}
+
 .github-link{
   font-style:italic;
   text-decoration:underline;
@@ -149,6 +153,7 @@ h3{
   .name-and-icons{
     margin-left:5%;
     margin-bottom:0px;
+    text-align:left;
   }
   .contact-info-text{
     margin-right:5%;
