@@ -4,8 +4,8 @@ const imgsrc=['img/imageedit_35_8033162653.jpg','img/15610685316106413.jpg','img
 
 const boxTranslator={
   '.b2':'about-me-link',
-  '.b5':'projects-link',
-  '.b12':'contact-me-link'
+  '.b4':'projects-link',
+  '.b9':'contact-me-link'
 };
 
 function preloadImages(){
@@ -34,7 +34,7 @@ function handleAnimateMyFace(){
 }
 
 function handleClickBox(){
-  $('.b5').click(e=>{
+  $('.b4').click(e=>{
     e.preventDefault();
     window.location.href = './projects.html';
     /* showTargetHideCurrent(boxTranslator['.b5']); */
@@ -48,7 +48,7 @@ function handleClickBox(){
     e.preventDefault();
     window.location.href = './projects.html';
   }); */
-  $('.b12').click(e=>{
+  $('.b9').click(e=>{
     e.preventDefault();
     window.location.href = './contact-me.html';
     /* showTargetHideCurrent(boxTranslator['.b12']) */

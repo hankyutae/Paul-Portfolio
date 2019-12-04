@@ -5,14 +5,14 @@
   display:flex;
 }
 
-.b2,.b5, .b7, .b12{
+.b2,.b4, .b6, .b9{
   cursor:pointer;
 }
 .b3{
   padding:5px;
   text-align:center;
 }
-.b2:hover,.b5:hover, .b7:hover, .b12:hover{
+.b2:hover,.b4:hover, .b6:hover, .b9:hover{
   opacity:0.8;
 }
 

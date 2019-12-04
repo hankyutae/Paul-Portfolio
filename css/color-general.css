@@ -17,6 +17,7 @@ footer{
   background-color:#f7786b;
   background-color:#564946;
   background-color:#242424;
+  color:whitesmoke;
   text-align: center;
   height:30px;
   display: flex;
@@ -44,7 +45,7 @@ h2{
   background-color:white;
 }
 .color1{
-  background-color: #92a8d1;
+  background-color:#9ABAD6;
 }
 
 .color2{
@@ -63,7 +64,7 @@ h2{
   color:#f7cac9;
 }
 .color6{
-  background-color:#AF7CAE;
+  background-color:#219091;
 }
 
 .color7{
@@ -75,7 +76,7 @@ h2{
 }
 
 .color9{
-  background-color:#F4E8F2;
+  background-color:#D6EAEB;
 }
 
 

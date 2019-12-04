@@ -42,12 +42,14 @@
     transition: 1s;
   }
   .project-card{
-    background-color:#f7cac9;
+    background-color:#9ABAD6;
+    background-color:#C8E2E0;
     flex-grow:1;
   }
   .project-title-photo-div{
     padding: 20px 5%;
-    background-color:#92a8d1;
+    background-color:#9ABAD6;
+    background-color:whitesmoke;
   }
   .project-photo{
     width:600px;
@@ -76,7 +78,6 @@
   .project-title-photo-div{
     box-sizing: content-box;
     padding: 30px 5%;
-    background-color:#92a8d1;
     min-width:calc(801px + calc(.05 * 1400px));
   }
   .project-photo{

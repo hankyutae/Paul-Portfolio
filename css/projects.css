@@ -36,10 +36,11 @@ h4{
   width:100%;
 }
 .project-div:nth-child(even){
-  background-color:#f7cac9;
+  background-color:whitesmoke;
 }
 .project-div:nth-child(odd){
-  background-color:#92a8d1;
+  background-color:#9ABAD6;
+  background-color:#C8E2E0;
 }
 .photo-carousel{
   position:relative;
@@ -101,15 +102,19 @@ html,body{
 
 .outside-header{
   display:none;
+  color:white;
+}
+.inside-header{
+  color:white;
 }
 
 .container{
   height:auto;
-  min-height:calc(100vh - 90px) !important;
+  min-height:calc(100vh - 60px) !important;
 }
 
 main,#projects-page{
   position:relative;
   height:auto;
-  min-height:calc(100vh - 90px) !important;
+  min-height:calc(100vh - 60px) !important;
 }
