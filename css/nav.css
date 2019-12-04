@@ -12,6 +12,8 @@ nav {
   display:flex;
   flex-direction:row-reverse;
   background-color:#f7786b;
+  background-color:#564946;
+  background-color:#242424;
   z-index:10;
 }
 
@@ -25,6 +27,8 @@ nav {
 }
 .nav-button{
   background-color:#f7786b;
+  background-color:#564946;
+  background-color:#242424;
   width:30px;
   height:30px;
   padding-top:3px;

@@ -9,12 +9,14 @@ main{
 body{
   display:flex;
   flex-direction: column;
-  padding:15px;
+  padding:0px 0px;;
   background-color: #034f84;
   line-height: 1.5;
 }
 footer{
   background-color:#f7786b;
+  background-color:#564946;
+  background-color:#242424;
   text-align: center;
   height:30px;
   display: flex;

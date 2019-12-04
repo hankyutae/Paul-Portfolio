@@ -91,7 +91,7 @@ html, body {
 main,#home-page{
   width:100%;
   height:calc(100% - 60px);
-  min-height:calc(100vh - 90px) !important;
+  min-height:calc(100vh - 60px) !important;
 }
 
 
