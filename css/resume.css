@@ -32,15 +32,23 @@ h1{
   border:1px white solid;
   border-radius:10px; */
   display:inline-flex;
-  align-items:center;
+  flex-direction:column;
+  align-items:left;
   margin:auto;
   padding:5px 10px;
+}
+
+.contact-link{
+  text-decoration:none;
+  color:white;
 }
 
 .contact-icon-a{
   display:inline-flex;
   align-items:center;
-  margin:0 5px;
+  
+  text-decoration:none;
+  color:white;
 }
 .contact-icon-div{
   display:inline-flex;
@@ -66,9 +74,20 @@ h1{
   margin:0 0;
 }
 
-.contact-icon-img{
-  height:50px;
+.contact-icon-img-portfolio{
+  height:26px;
+  width:26px;
+  margin:2px 3px 2px 1px;
 }
+.contact-icon-img-github{
+  height:26px;
+  width:26px;
+  margin:2px 3px 2px 1px;
+}
+.contact-icon-img-linkedin{
+  height:30px;
+}
+
 
 footer{
   background-color:#f7786b;
@@ -130,7 +149,11 @@ ul{
   vertical-align:top;
   font-weight:500;
 }
-
+.contact-info-text{
+  display:inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 hr{
   margin:0;
@@ -144,6 +167,11 @@ h3{
 .name-and-icons{
   margin-bottom:15px;
 }
+
+.no-line-break{
+  white-space: nowrap;
+}
+
 @media screen and (min-width:750px){
   header{
     flex-direction:row;
@@ -156,9 +184,12 @@ h3{
     text-align:left;
   }
   .contact-info-text{
+    height:100%;
+    justify-content:space-between;
+  }
+  .contact-info-text-wrapper{
     margin-right:5%;
-    text-align:right;
-    margin-top:20px;
+    margin-top:40px;
   }
   .contact-box{
     padding-left:0;
